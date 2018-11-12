@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="弹弹playCss.css">
+	<script type="text/javascript">
+		function show(){
+			var d = document.getElementsByClassName("down");
+			d.style.display="block";
+		};
+	</script>
+<title>弹弹PLAY</title>
+</head>
+
+<body>
+	<nav>
+		<div class="logo">
+			<a href="#">
+				<img src="image/logo.png" alt="">
+			</a>
+		</div>
+		<ul>
+			<li><a href="#">播放器</a></li>
+			<li><a href="#">展会版</a></li>
+			<li><a href="#">历史</a></li>
+			<li><a href="#">联系我们</a></li>
+		</ul>
+	</nav>
+	<div class="content">
+		<div class="row">
+		<div class="text">
+			<h1>能追番的播放器</h1>
+			<p>免费下载，立即体验视频播放器和在线追番工具的完美结合</p>
+			<a href="#">windows版</a><a href="#">ios版</a><a href="#" onclick="show()">Android版</a>
+			<p class="dltype">
+				<span>macOS版</span>|
+				<span>UWP</span>|
+				<span id="show" onMouseOver="show()">微信公众号</span>|
+				<span>从网盘下载</span>|
+			</p>
+			<div class="textcontent">
+				<ul>
+				<li>最新版本: v7.6.1</li>
+				<li>发布日期: 2018年5月5日</li>
+				<li>系统需求: Windows Vista/7/8/10</li>
+			</ul></div>
+		</div>
+			<div class="down" style="display:none">
+				<img src="image/qrcode_weixinmp.jpg" alt="">
+			</div>
+		<div class="img">
+			<img src="image/app.png" alt="">
+		</div>
+		</div>
+	</div>
+	<footer>
+		<div class="left">
+			<ul>
+				<h3>合作伙伴</h3>
+				<li><a href="#">Sakura Cafe字幕组</a></li>
+				<li><a href="#">Sakura Cafe字幕组</a></li>
+				<li><a href="#">Sakura Cafe字幕组</a></li>
+				<li><a href="#">Sakura Cafe字幕组</a></li>
+			</ul>
+		</div>
+		<div class="mid">
+			<ul>
+				<h3>关于我们</h3>
+				<li><a href="#">新浪微博</a></li>
+				<li><a href="#">公众号</a></li>
+			</ul>
+		</div>
+		<div class="right">
+			
+			<ul><h3>开放平台</h3>
+				<li><a href="#">弹弹play开放平台</a></li>
+				
+			</ul>
+		</div>
+		<div class="tips">
+			<o>Copyright © 2012-2018. 个人练习所作， 保留一切权利</o>
+		</div>
+	</footer>
+</body>
+</html>
