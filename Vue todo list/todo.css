@@ -1,0 +1,13 @@
+/* 输入框样式 */
+input{
+    height: 30px;
+    
+}
+/* 删除按钮样式 */
+#del{
+    width: 40px;
+    height: 20px;
+    margin-left: 30px;
+    background-color: rgb(241, 133, 133);
+    border-radius: 5px;
+}
